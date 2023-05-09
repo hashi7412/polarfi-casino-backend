@@ -1,0 +1,25 @@
+{
+	"name": "polarfi-api",
+	"version": "1.0.0",
+	"description": "apis for polarfi casino game",
+	"main": "dist/app.js",
+	"scripts": {
+		"start": "tsc && node dist/app.js",
+		"lint": "eslint . --ext .ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "amigo",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/express": "^4.17.17",
+		"@typescript-eslint/eslint-plugin": "^5.59.0",
+		"@typescript-eslint/parser": "^5.59.0",
+		"eslint": "^8.39.0",
+		"eslint-plugin-react": "^7.32.2",
+		"typescript": "^5.0.4"
+	},
+	"dependencies": {
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2"
+	}
+}
