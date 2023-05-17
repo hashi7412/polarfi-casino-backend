@@ -3,6 +3,8 @@ import { createServer } from 'http';
 import initSocket from './utils/Socket';
 
 const app = express();
+
+global.users = new Set();
 global.chats = ['foo']
 
 const init = async () => {

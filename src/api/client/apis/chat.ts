@@ -1,7 +1,8 @@
+import sendToUsers from "../../../utils/sendUsers";
 
 const chatEndpoint = (ip, origin, ws, cookie) => {
-    console.log(ip, origin, ws, cookie);
-    console.log(global.chats);
+    sendToUsers(global.chats);
+    return true;
 }
 
 export default chatEndpoint;
